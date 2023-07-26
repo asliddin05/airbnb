@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container header__container">
+            <div class="header__logo_block">
+                <img src="./img/airbnb-logo.svg" class="header__logo" alt="AirBnB logo">
+            </div>
+            <nav class="header__navbar">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#" class="header__link">Anywhere</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Any week</a>
+                    </li>
+                    <form class="header__form">
+                        <input type="text" class="header__input" aria-label="Add guests" placeholder="Add guests" name="header__input">
+                        <button class="header__search_btn"></button>
+                    </form>
+                </ul>
+            </nav>
+            <div class="header__block">
+                <a href="#" class="header__block_link">Airbnb your home</a>
+                <div class="header__burger_block">
+                    <button class="header__burger_btn"></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="category" class="category">
+            <div class="container category__container">
+                <ul class="category__list">
+                    <li class="category__item">
+                        <a href="#" class="category__link">   
+                                Amazing views
+                        </a>
+                    </li>
+                    <li class="category__item">
+                        <a href="#" class="category__link"> 
+                                Lakefront                           
+                        </a>
+                    </li>
+                    <li class="category__item">
+                        <a href="#" class="category__link">
+                                Caves                                
+                        </a>
+                    </li>
+                    <li class="category__item">
+                        <a href="#" class="category__link">
+                            OMG!
+                        </a>
+                    </li>
+                    <li class="category__item">
+                        <a href="#" class="category__link">
+                            Earth homes
+                        </a>
+                    </li>
+                    <li class="category__item">
+                        <a href="#" class="category__link">
+                            Treehouses
+                        </a>
+                    </li>
+                    <li class="category__item">
+                        <a href="#" class="category__link">
+                            Mansions
+                        </a>
+                    </li>
+                    <li class="category__item">
+                        <a href="#" class="category__link">
+                            Cabins
+                        </a>
+                    </li>
+                    <li class="category__item">
+                        <a href="#" class="category__link">
+                            Amazing pools
+                        </a>
+                    </li>
+                    <li class="category__item">
+                        <a href="#" class="category__link">
+                            Islands
+                        </a>
+                    </li>
+                    <li class="category__item">
+                        <a href="#" class="category__link">
+                            Beachfront
+                        </a>
+                    </li>
+                    <li class="category__item">
+                        <a href="#" class="category__link">
+                            Trending
+                        </a>
+                    </li>
+                </ul>
+                <div class="category__btn_block">
+                    <button class="category__next_btn"></button>
+                    <button class="category__filter_btn">Filters</button>
+                </div>
+            </div>
+        </section>
+        <section class="place" id="place">
+            <div class="container place__container">
+                <form class="place__form">
+                    <div>
+                    <label class="place__title">Display total price</label>
+                    <input type="text" class="place__input" name="search" aria-label="Includes all fees, before taxes" placeholder="Includes all fees, before taxes">
+                </div>
+                    <input type="checkbox" name="checkbox" class="place__checkbox">
+                    <span class="place__span"></span>
+                </div>
+                </form>
+                <ul class="place__list">
+                    <li class="place__item">
+                        <div class="place__img_block">
+                            <img src="./img/place1.jpg" alt="Place image" class="place__img">
+                            <div class="place__title_block">
+                                <h3 class="place__title">Knoxville, Tennessee</h3>
+                                <span class="place__rating">5.0</span>
+                            </div>
+                            <p class="place__text">Mountain and lake views</p>
+                            <p class="place__date">Apr 16 – 21</p>
+                            <p class="place__price">$388
+                                <span class="place__price_span">night</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="place__item">
+                        <div class="place__img_block">
+                            <img src="./img/place2.jpg" alt="Place image" class="place__img">
+                            <div class="place__title_block">
+                                <h3 class="place__title">Sevierville, Tennessee</h3>
+                                <span class="place__rating">4.93</span>
+                            </div>
+                            <p class="place__text">Mountain views</p>
+                            <p class="place__date">Jun 5 – 10</p>
+                            <p class="place__price">$343
+                                <span class="place__price_span">night</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="place__item">
+                        <div class="place__img_block">
+                            <img src="./img/place3.jpg" alt="Place image" class="place__img">
+                            <div class="place__title_block">
+                                <h3 class="place__title">Branson, Missouri</h3>
+                                <span class="place__rating">5.0</span>
+                            </div>
+                            <p class="place__text">Mountain views</p>
+                            <p class="place__date">Apr 30 – May 5</p>
+                            <p class="place__price">$388
+                                <span class="place__price_span">night</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="place__item">
+                        <div class="place__img_block">
+                            <img src="./img/place4.jpg" alt="Place image" class="place__img">
+                            <div class="place__title_block">
+                                <h3 class="place__title">Chicago, Illinois</h3>
+                                <span class="place__rating">4.72</span>
+                            </div>
+                            <p class="place__text">City views</p>
+                            <p class="place__date">Apr 4 – 9</p>
+                            <p class="place__price">$326
+                                <span class="place__price_span">night</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="place__item">
+                        <div class="place__img_block">
+                            <img src="./img/place5.jpg" alt="Place image" class="place__img">
+                            <div class="place__title_block">
+                                <h3 class="place__title">Chicago, Illinois</h3>
+                                <span class="place__rating">5.0</span>
+                            </div>
+                            <p class="place__text">Lake and city views</p>
+                            <p class="place__date">Mar 4 – 9</p>
+                            <p class="place__price">$349
+                                <span class="place__price_span">night</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="place__item">
+                        <div class="place__img_block">
+                            <img src="./img/place6.jpg" alt="Place image" class="place__img">
+                            <div class="place__title_block">
+                                <h3 class="place__title">Sevierville, Tennessee</h3>
+                                <span class="place__rating">4.82</span>
+                            </div>
+                            <p class="place__text">Mountain and lake views</p>
+                            <p class="place__date">Mar 5 – 10</p>
+                            <p class="place__price">$255
+                                <span class="place__price_span">night</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="place__item">
+                        <div class="place__img_block">
+                            <img src="./img/place7.jpg" alt="Place image" class="place__img">
+                            <div class="place__title_block">
+                                <h3 class="place__title">Cassopolis, Michigan</h3>
+                                <span class="place__rating">4.96</span>
+                            </div>
+                            <p class="place__text">Lake views</p>
+                            <p class="place__date">Mar 5 – 10</p>
+                            <p class="place__price">$595
+                                <span class="place__price_span">night</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="place__item">
+                        <div class="place__img_block">
+                            <img src="./img/place8.jpg" alt="Place image" class="place__img">
+                            <div class="place__title_block">
+                                <h3 class="place__title">Tofte, Minnesota</h3>
+                                <span class="place__rating">4.89</span>
+                            </div>
+                            <p class="place__text">Beach and lake views</p>
+                            <p class="place__date">Mar 19 – 24</p>
+                            <p class="place__price">$170
+                                <span class="place__price_span">night</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="place__item">
+                        <div class="place__img_block">
+                            <img src="./img/place9.jpg" alt="Place image" class="place__img">
+                            <div class="place__title_block">
+                                <h3 class="place__title">Sevierville, Tennessee</h3>
+                                <span class="place__rating">4.94</span>
+                            </div>
+                            <p class="place__text">Mountain and park views</p>
+                            <p class="place__date">Mar 18 – 23</p>
+                            <p class="place__price">$229
+                                <span class="place__price_span">night</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="place__item">
+                        <div class="place__img_block">
+                            <img src="./img/place10.jpg" alt="Place image" class="place__img">
+                            <div class="place__title_block">
+                                <h3 class="place__title">Sevierville, Tennessee</h3>
+                                <span class="place__rating">4.93</span>
+                            </div>
+                            <p class="place__text">Mountain views</p>
+                            <p class="place__date">Apr 21 – 26</p>
+                            <p class="place__price">$199
+                                <span class="place__price_span">night</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="place__item">
+                        <div class="place__img_block">
+                            <img src="./img/place11.jpg" alt="Place image" class="place__img">
+                            <div class="place__title_block">
+                                <h3 class="place__title">Osage Beach, Missouri</h3>
+                                <span class="place__rating">4.85</span>
+                            </div>
+                            <p class="place__text">Lake and pool views</p>
+                            <p class="place__date">Mar 3 – 8</p>
+                            <p class="place__price">$850
+                                <span class="place__price_span">night</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="place__item">
+                        <div class="place__img_block">
+                            <img src="./img/place12.jpg" alt="Place image" class="place__img">
+                            <div class="place__title_block">
+                                <h3 class="place__title">Sevierville, Tennessee</h3>
+                                <span class="place__rating">4.96</span>
+                            </div>
+                            <p class="place__text">Mountain views</p>
+                            <p class="place__date">Mar 7 – 12</p>
+                            <p class="place__price">$428
+                                <span class="place__price_span">night</span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,35 @@
+html {
+    scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: roboto;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+ul, ol {
+    list-style: none;
+}
+button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 1320px;
+    padding-inline: 20px;
+    margin: 0 auto;
+    width: 100%;
+}
